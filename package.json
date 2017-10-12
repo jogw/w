@@ -1,0 +1,31 @@
+{
+  "name": "w",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "tcprelay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogw/w.git"
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jogw/w/issues"
+  },
+  "homepage": "https://github.com/jogw/w",
+  "dependencies": {
+    "bufferutil": "^3.0.0",
+    "commander": "^2.9.0",
+    "log4js": "^1.1.1",
+    "shadowsocks": "^1.5.3",
+    "throng": "^4.0.0",
+    "ws": "^2.2.3"
+  }
+}
